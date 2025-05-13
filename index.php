@@ -8,7 +8,7 @@ $dbname = "studentdb";
 // Initialize variables
 $students = [];
 $errorMsg = "";
-
+ 
 // Start session for messages
 session_start();
 
