@@ -217,7 +217,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <button type="submit" class="btn btn-primary px-4">
                                     <i class="fas fa-plus-circle me-2"></i> Add New
                                 </button>
-                                <a href="index.html" class="btn btn-outline-secondary px-4">
+                                <a href="index.php" class="btn btn-outline-secondary px-4">
                                     <i class="fas fa-times-circle me-2"></i> Exit
                                 </a>
                             </div>
