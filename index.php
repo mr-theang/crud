@@ -237,7 +237,7 @@ try {
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <!-- Brand Logo and Name -->
-                <a class="navbar-brand d-flex align-items-center" href="header.php">
+                <a class="navbar-brand d-flex align-items-center" href="index.php">
                     <i class="fas fa-graduation-cap fs-3 me-2"></i>
                     <span class="fw-bold">StudentDB</span>
                 </a>
@@ -254,17 +254,17 @@ try {
                     <!-- Main Navigation Links -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="header.php">
+                            <a class="nav-link active" href="index.php">
                                 <i class="fas fa-home me-1"></i> Dashboard
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="header.php">
+                            <a class="nav-link" href="index.php">
                                 <i class="fas fa-chart-bar me-1"></i> Reports
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="header.php">
+                            <a class="nav-link" href="index.php">
                                 <i class="fas fa-cog me-1"></i> Settings
                             </a>
                         </li>
