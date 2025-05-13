@@ -74,6 +74,6 @@ if (!empty($errorMsg)) {
 }
 
 
-header("Location: index.php");
+header("Location: index.html");
 exit();
 ?>
