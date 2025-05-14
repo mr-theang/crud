@@ -46,7 +46,7 @@ if (isset($_GET['id']) && !empty(trim($_GET['id']))) {
                 $address = $row['address'] ?? '';
             } else {
           
-                header("location: index.html");
+                header("location: index.php");
                 exit();
             }
         } else {
@@ -93,7 +93,7 @@ if (isset($_GET['id']) && !empty(trim($_GET['id']))) {
     $conn->close();
 } else {
 
-    header("location: index.html");
+    header("location: index.php");
     exit();
 }
 ?>
@@ -202,7 +202,7 @@ if (isset($_GET['id']) && !empty(trim($_GET['id']))) {
 </head>
 <body>
     <div class="container mt-5">
-        <a href="index.html" class="back-link">
+        <a href="index.php" class="back-link">
             <i class="fas fa-arrow-left"></i> Back to Students List
         </a>
         
@@ -275,7 +275,7 @@ if (isset($_GET['id']) && !empty(trim($_GET['id']))) {
                                 <button type="submit" class="btn btn-primary px-4">
                                     <i class="fas fa-save me-2"></i> Update Student
                                 </button>
-                                <a href="index.html" class="btn btn-outline-secondary px-4">
+                                <a href="index.php" class="btn btn-outline-secondary px-4">
                                     <i class="fas fa-times-circle me-2"></i> Cancel
                                 </a>
                             </div>
