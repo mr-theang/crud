@@ -149,6 +149,71 @@ try {
         .dropdown-item:hover {
             background-color: #f8f9fa;
         }
+         .footer {
+        background-color: #f8f9fa;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        color: #212529;
+    }
+    
+    .bg-gradient {
+        background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(255,255,255,1) 100%);
+    }
+    
+    .footer-links a {
+        color: #6c757d;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .footer-links a:hover {
+        color: #0d6efd;
+        text-decoration: none;
+    }
+    
+    .legal-link {
+        color: #6c757d;
+        font-size: 0.85rem;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .legal-link:hover {
+        color: #0d6efd;
+        text-decoration: none;
+    }
+    
+    .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        color: #6c757d;
+        transition: all 0.3s ease;
+    }
+    
+    .social-icon:hover {
+        background-color: #0d6efd;
+        color: white;
+        border-color: #0d6efd;
+        transform: translateY(-3px);
+    }
+    
+    hr {
+        opacity: 0.1;
+    }
+    
+    .form-control {
+        border: 1px solid #dee2e6;
+        padding: 0.6rem 1rem;
+    }
+    
+    .btn-primary {
+        padding: 0.6rem 1.5rem;
+    }
         
         /* Responsive adjustments */
         @media (max-width: 991.98px) {
@@ -480,7 +545,7 @@ try {
     </div>
     
     <!-- Footer -->
-       <footer class="footer bg-white border-top mt-auto py-3">
+       <!-- <footer class="footer bg-white border-top mt-auto py-3">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
         <div class="text-center text-md-start mb-2 mb-md-0">
             <span class="text-muted">© <?php echo date('Y'); ?> Student Management System</span>
@@ -491,7 +556,75 @@ try {
             <a href="#" class="text-decoration-none text-muted">Contact</a>
         </div>
     </div>
-        </footer>
+        </footer> -->
+ 
+
+<footer class="footer mt-auto py-5 bg-gradient">
+    <div class="container">
+        <!-- Footer top section with logo and quick links -->
+        <div class="row mb-4">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="d-flex align-items-center mb-3">
+                    <i class="fas fa-graduation-cap fs-2 me-2 text-primary"></i>
+                    <h5 class="mb-0 fw-bold">StudentDB</h5>
+                </div>
+                <p class="text-muted">Modern student management system designed to streamline administrative tasks and enhance educational experience.</p>
+                <div class="d-flex social-icons">
+                    <a href="#" class="me-3 social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-3 social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-3 social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="me-3 social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                <h6 class="text-uppercase fw-bold mb-3">Navigation</h6>
+                <ul class="list-unstyled mb-0 footer-links">
+                    <li class="mb-2"><a href="index.php">Dashboard</a></li>
+                    <li class="mb-2"><a href="students.php">Students</a></li>
+                    <li class="mb-2"><a href="reports.php">Reports</a></li>
+                    <li class="mb-2"><a href="settings.php">Settings</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-6 mb-4 mb-md-0">
+                <h6 class="text-uppercase fw-bold mb-3">Resources</h6>
+                <ul class="list-unstyled mb-0 footer-links">
+                    <li class="mb-2"><a href="#">Documentation</a></li>
+                    <li class="mb-2"><a href="#">API Reference</a></li>
+                    <li class="mb-2"><a href="#">Tutorials</a></li>
+                    <li class="mb-2"><a href="#">Community Forum</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-4 col-md-4">
+                <h6 class="text-uppercase fw-bold mb-3">Stay Connected</h6>
+                <p class="text-muted mb-3">Subscribe to our newsletter for updates</p>
+                <form class="d-flex">
+                    <input class="form-control me-2 rounded-pill" type="email" placeholder="Your email" aria-label="Email">
+                    <button class="btn btn-primary rounded-pill" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Divider -->
+        <hr class="my-4">
+        
+        <!-- Footer bottom with copyright and links -->
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="small text-muted mb-0">© <?php echo date('Y'); ?> Student Management System. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <div class="d-flex flex-wrap justify-content-center justify-content-md-end">
+                    <a href="#" class="me-3 mb-2 mb-md-0 legal-link">Privacy Policy</a>
+                    <a href="#" class="me-3 mb-2 mb-md-0 legal-link">Terms of Service</a>
+                    <a href="#" class="legal-link">Support</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
                      
 
     <!-- Bootstrap JS Bundle with Popper -->
