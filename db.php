@@ -1,12 +1,13 @@
 <?php
 
-$servername = "sql206.infinityfree.com"; 
-$username = "if0_38973093";
-$password = "8psDN2LGSLdXy7 "; 
-$database = "if0_38973093_studentdb";
-$port = 3306;
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "studentdb";
 
-$conn = new mysqli($servername, $username, $password, $database,  $port);
+
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 
 if ($conn->connect_error) {
