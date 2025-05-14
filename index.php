@@ -568,9 +568,9 @@ try {
                     <h6 class="text-uppercase fw-bold mb-3">Navigation</h6>
                     <ul class="list-unstyled mb-0 footer-links">
                         <li class="mb-2"><a href="index.php">Dashboard</a></li>
-                        <li class="mb-2"><a href="students.php">Students</a></li>
-                        <li class="mb-2"><a href="reports.php">Reports</a></li>
-                        <li class="mb-2"><a href="settings.php">Settings</a></li>
+                        <li class="mb-2"><a href="index.php">Students</a></li>
+                        <li class="mb-2"><a href="index.php">Reports</a></li>
+                        <li class="mb-2"><a href="index.php">Settings</a></li>
                     </ul>
                 </div>
                 
